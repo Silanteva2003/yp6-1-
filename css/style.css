@@ -1,0 +1,726 @@
+@font-face {
+    font-family: "Karla";
+    src: url("../fonts/Karla-ExtraBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Karla";
+    src: url("../fonts/Karla-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+body{
+    font-family: 'Karla';
+    font-weight: 400;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Header */
+.header{
+    height: 80px;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+    margin: 0 auto;
+    background: #FFFFFF;
+}
+/* Сделала настройки для блока header */
+.header__wrapper{
+    display: flex;
+    width: 1200px;
+    align-items: center;
+    margin: 0 auto;
+}
+.nav{
+    height: 30px;
+    margin-left: 97px;
+}
+.main_menu{
+    display: flex;
+    list-style: none;
+    margin-top: 15px;
+}
+/* Сделала настроки для логотипа */
+.logo{
+    margin-top: 28px;
+    margin-left: 150px;
+}
+/* Настроки ссылок */
+.menu a{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+    text-decoration: none;
+    transition: all .02s ease-in-out;
+    opacity: 1;
+}
+.menu:hover{
+    opacity: 0.6;
+}
+.menu1 a{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+    text-decoration: none;
+    transition: all .02s ease-in-out;
+    opacity: 1;
+}
+.menu1:hover{
+    opacity: 0.6;
+}
+.menu1{
+    margin-left: 30px;
+}
+.img__menu{
+    margin-left: 50px;
+}
+.menu5 a{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+    text-decoration: none;
+    transition: all .02s ease-in-out;
+    opacity: 1;
+    margin-left: 10px;
+}
+.menu5:hover{
+    opacity: 0.6;
+}
+.text__menu{
+    margin-left: 20px;
+    background: #1D1F2E;
+    border-radius: 10px;
+    width: 22px;
+    height: 20px; 
+}
+.text__main{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+/*INTRO*/
+.intro{
+    height: 530px;
+    }
+    /* Сделала настройки для блока секции, текста и кнопки */
+    .wrapper{
+    margin: 0 auto;
+    width: 1380px;
+    height: 721px;
+    }
+    .zagolovok_intro{
+    height: 128px;
+    width: 794px;
+    margin-left: 300px;
+    margin-top: -373px
+    }
+    .intro_best{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    }
+    .intro_mugs{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 47px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 10px;
+    }
+    .intro_most{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 10px;
+    }
+    /* Сделала редактирование для кнопки */
+    /*кнопка*/
+    .bth_explore{
+    height: 33px;
+    width: 231px;
+    background: #FFFFFF;
+    border: #FFFFFF;
+    cursor: pointer;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+    margin-left: 565px;
+    margin-top: 38px;
+    }
+    .bth_explore:hover{
+    background-color: antiquewhite;
+    }
+  /*ABOUT*/
+.about{
+    height: 350px;
+    }
+    /* Сделала настройки для текста и ссылки */
+    .zagolovok_about{
+    height: 274px;
+    width: 658px;
+    margin-left: 440px;
+    margin-top: 123px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    }
+    .about_even{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    color: #1D1F2E;
+    }
+    .about_it{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(29, 31, 46, 0.7);
+    margin-top: 16px;
+    }
+    .about_text{
+    text-decoration: none;
+    }
+    .about_read{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+    color: #A25F4B;
+    margin-top: 21px;
+    }
+    .about_read:hover{
+    color:black;
+    }
+    .img_line_pink{
+    margin-top: -15px;
+    }
+    /* Featured */
+    .featured{
+        height: 869px;
+    }
+    /* Сделала настрокий для текста и блоков */
+    .featured__wrapper{
+        width: 940px;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .text__feat{
+        display: flex;
+        margin-left: 374px;
+    }
+    .text__featu{
+        margin: 0 15px;
+        font-family: 'Karla';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #1D1F2E;
+    }
+    .img__coffee{
+        display: flex;
+        margin-top: 100px;
+    }
+    .text__coffee1{
+        margin-left: 10px;
+    }
+    .text__coffee1:hover{
+        box-shadow: 0 0 5px rgb(0 0 0);
+        transition: background-color ease 0.5s;
+        cursor: pointer;
+    }
+    .text__coffee:hover{
+        box-shadow: 0 0 5px rgb(0 0 0);
+        transition: background-color ease 0.5s;
+        cursor: pointer;
+    }
+    .text__coffee2{
+        font-family: 'Karla';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        color: #1D1F2E;
+        margin-top: 35px;
+    }
+    .cena__coffe{
+        font-family: 'Karla';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+        color: rgba(29, 31, 46, 0.7);
+        margin-top: 5px;
+    }
+    .cena__coff{
+        font-family: 'Karla';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 32px;
+        text-align: center;
+        color: #A25F4B;
+        margin-top: 5px;
+    }
+    .cena__coffee{
+        font-family: 'Karla';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+        text-decoration-line: line-through;
+        color: rgba(29, 31, 46, 0.4);
+    }
+    /* Products */
+    .products{
+        height: 1845px;
+    }
+    /* Сделала настройки для текста и блоков */
+    .products__wrapper{
+        height: 1633px;
+        width: 960px;
+        margin:0 auto;
+    }
+    .img__coffee1{
+        display: flex;
+        margin-top: 50px;
+    }
+    /* Kartinka */
+    /* Добавила фон секции */
+    .kartinka__wrapper{
+        height: 340px;
+    }
+    /* Behind */
+    .behind{
+        height: 865px;
+    }
+    /* Сделала настроки текста и блоков */
+    .behind__wrapper{
+        margin: 0 auto;
+        width: 940px;
+        height: 721px;
+        margin-top: 100px;
+    }
+    .text__behind{
+        display: flex;
+        margin-left: 282px;
+    }
+    .behid__text{
+        font-family: 'Karla';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        color: #1D1F2E;
+        margin-top: 25px;
+    }
+    .text__behind2{
+        font-family: 'Karla';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: rgba(29, 31, 46, 0.7);
+        margin-top: 14px;
+    }
+    .text__data{
+        font-family: 'Karla';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #1D1F2E;
+        margin-top: 16px;
+    }
+    .text__behind3{
+        margin-left: 20px;
+    }
+    /*SHOP*/
+.shop{
+    height: 560px;
+    }
+    .wrapper_shop{
+    width: 1240px;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-top: 50px;
+    }
+    /* Сделала настройки для текста */
+    .text_shop{
+    display: flex;
+    margin-left: 415px;
+    }
+    .text_shop_buy{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+    margin: 0 15px;
+    }
+    /* Сделала настроки для блока с картинками */
+    .block_shop{
+    height: 280px;
+    margin-left: 0px;
+    margin-top: 32px;
+    }
+    .magazine{
+    display: flex;
+    margin-left: -90px;
+    }
+    .img_three{
+    height: 280px;
+    margin-left: 250px;
+    margin-top: 100px;
+    }
+    .shop_img{
+    height: 280px;
+    margin-left: 20px;
+    margin-top: 100px;
+    }
+    .img_coffee2{
+    margin-top: 17px;
+    }
+    /* Сделала настроки текста */
+    .zagolovok_shop{
+    height: 199px;
+    margin-left: 720px;
+    margin-top: -183px;
+    }
+    .shop_prem{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+    }
+    .shop_get{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 50px;
+    color: #1D1F2E;
+    margin-top: 25px;
+    }
+    .shop_most{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(29, 31, 46, 0.7);
+    margin-top: 25px;
+    }
+    /* Сделала редактирование кнопки */
+    /*кнопка*/
+    .bth_shop{
+    height: 35px;
+    width: 173px;
+    margin-left: 720px;
+    margin-top: 50px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #1D1F2E;
+    border: #1D1F2E;
+    cursor: pointer;
+    }
+    .bth_shop:hover{
+    background-color: antiquewhite;
+    color: #1D1F2E;
+    }
+    /*BLOG*/
+.blog{
+    height: 327px;
+    margin: 0 auto;
+    }
+    /* Сделала фон секции */
+    .wrapper_blog{
+    width: 1380px;
+    margin: 0 auto;
+    background: #1D1F2E;
+    height: 377px;
+    }
+    .zagolovok_blog{
+    margin-left: 0px;
+    text-align: center;
+    padding-top: 100px;
+    }
+    /* Сделала настроки для текста */
+    .text_blog{
+    display: flex;
+    margin-left: 540px;
+    }
+    .blog_sign{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    }
+    .blog_updates{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 15px;
+    margin-left: 25px;
+    }
+    /* Сделала настройки для кнопки и input */
+    .bth_email{
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+    
+    }
+    .text__input__box{
+    border: 1px solid #2F303E;
+    box-sizing: border-box;
+    border-radius: 0px;
+    width: 350px;
+    height: 54px;
+    background-color: #1D1F2E;
+    padding: 20px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    }
+    .text__input__box::placeholder{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    }
+    .bth_subscribe{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #000000;
+    width: 129px;
+    height: 54px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 6px rgba(29, 31, 46, 0.1);
+    border:#FFFFFF;
+    cursor: pointer;
+    margin-left: 10px;
+    }
+    .bth_subscribe:hover{
+    background-color: antiquewhite;
+    color: #1D1F2E;
+    }
+    /* Footer */
+    .footer{
+        height: 361px;
+    }
+    .footer__wrapper{
+        height: 204px;
+        width: 940px;
+        margin: 0 auto;
+        display: flex;
+        padding-top: 100px;
+    }
+    /* Сделала настроки для блоков с ссылками */
+    .menu__stolb{
+        display: grid;
+    }
+    .menu__stolb1{
+        display: grid;
+    }
+    .menu__text{
+        font-family: 'Karla';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 22px;
+        color: rgba(29, 31, 46, 0.7);
+        text-decoration: none;
+        margin-top: 23px;
+        opacity: 1;
+    }
+    .menu__text:hover{
+        opacity: 0.6;
+    }
+    .menu__text1{
+        font-family: 'Karla';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 22px;
+        color: rgba(29, 31, 46, 0.7);
+        text-decoration: none;
+        margin-top: 10px;
+        opacity: 1;
+    }
+    .menu__text1:hover{
+        opacity: 0.6;
+    }
+    .text__menu2{
+        font-family: 'Karla';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #1D1F2E;
+    }
+    /* Сделала настройки для текста */
+    .text__footer{
+        font-family: 'Karla';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        color: rgba(29, 31, 46, 0.7);
+        margin-top: 22px;
+    }
+    .footer__text{
+        font-family: 'Karla';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        color: rgba(29, 31, 46, 0.3);
+        margin-top: 82px;
+    }
+    .menu__footer{
+        margin-left: 55px;
+    }
+    .follow__footer{
+        margin-left: 79px;
+    }
+    /* Настройки для блока с контактами */
+    .mail__text{
+        margin-left: 83px;
+    }
+    .contact__text{
+        font-family: 'Karla';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #1D1F2E;
+    }
+    .text__mail{
+        font-family: 'Karla';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        color: rgba(29, 31, 46, 0.7);
+        margin-top: 23px;
+    }
+    .us__footer{
+        font-family: 'Karla';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 36px;
+        color: #1D1F2E;
+        margin-top: 15px;
+    }
+    .powered__text{
+        font-family: 'Karla';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        color: rgba(29, 31, 46, 0.3);
+        margin-top: 54px;
+    }
