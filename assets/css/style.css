@@ -629,6 +629,10 @@ body{
         color: rgba(29, 31, 46, 0.7);
         text-decoration: none;
         margin-top: 23px;
+        opacity: 1;
+    }
+    .menu__text:hover{
+        opacity: 0.6;
     }
     .menu__text1{
         font-family: 'Karla';
@@ -639,6 +643,10 @@ body{
         color: rgba(29, 31, 46, 0.7);
         text-decoration: none;
         margin-top: 10px;
+        opacity: 1;
+    }
+    .menu__text1:hover{
+        opacity: 0.6;
     }
     .text__menu2{
         font-family: 'Karla';
